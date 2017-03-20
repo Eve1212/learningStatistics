@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+div#leftPop, div#rightPop{
+	flex: 1 1 auto;
+	overflow: visible;
+}
+
+svg {
+	overflow: visible;
+}
+
+
+
+.row {
+    Width: 100%;
+
+}
+.border {
+    border-bottom: 1px solid black;
+}
+.d1, .d2,.d5 {
+    float:left;
+    width:49%;
+}
+.d1 {
+    margin-right:1%;
+}
+
+
+.d5 {
+    clear:both;
+    margin-right: 1%;
+}
+
+
+.d1, .d2 {
+    margin-bottom:1%;
+    Height: 80%
+}
+
+
+
+.d5{
+    Height: 10%
+}
+
+#sampledraw{
+    position: relative;
+    left:42%;
+    margin-top: 105px;
+    font-weight: bold;
+    height: 76px;
+    font-size:13px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    font-family:'Comic Sans MS';
+    border: 1px solid #ffffff;
+    background-color:darkcyan;
+
+}
+
+#showtext{
+    position: relative;
+    left:44%;
+    margin-top: 0px;
+    font-weight: bold;
+    height: 76px;
+    background-color: white;
+    border-color: white;
+    font-family:'Comic Sans MS';
+
+}
+
+#showPopulation{
+    position: relative;
+    top: 80%;
+    left: 10%;
+    height: 76px;
+    font-size:18px;
+    font-weight: bold;
+    font-size:16px;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+
+    font-family:'Comic Sans MS';
+    border: 1px solid #ffffff;
+    /*#488ac7;*/
+    background-color:darkcyan;
+}
+
+#submit{
+    position: relative;
+    top: 80%;
+    left: 5%;
+    height: 76px;
+    font-size:18px;
+    font-weight: bold;
+    font-family:'Comic Sans MS';
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+
+    border: 1px solid #ffffff;
+    background-color:darkcyan;
+    margin-top: -20px;
+}
+
+#reset{
+    position: relative;
+    top: 80%;
+    left: 15%;
+    height: 76px;
+    font-size:18px;
+    font-weight: bold;
+    font-family:'Comic Sans MS';
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+
+    border: 1px solid #ffffff;
+    background-color:darkcyan;
+    margin-top: -20px;
+
+}
+
+#btn_surprise{
+    position: relative;
+    left: 65%;
+    width: auto;
+    height: 76px;
+    top: 35px;
+    font-size:18px;
+    font-weight: bold;
+    color:#ffffff;
+    background-color:darkcyan;
+    border: 1px solid #ffffff;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#CIValue {
+    padding:0px;
+    width:100%;
+    height:100%;
+    margin: 0 0 -8px -1px;
+    left: 40px;
+}
+
+button img {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+
+.textbox
+{
+    display: block;
+
+    width: 200px;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    font-family:'Comic Sans MS'
+}
+
+
+.grid line {
+    stroke: lightgrey;
+    opacity: 0.7;
+    /*shape-rendering: crispEdges;*/
+}
+.grid path {
+    stroke-width: 0;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+
+#myImg { visibility: hidden; }
